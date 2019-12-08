@@ -1,0 +1,7 @@
+# file = open("readme.txt", encoding="utf-8")
+# text = file.read()
+# print(text)
+file = open("readme1.txt", "a+", encoding="utf-8")
+file.write("write test333")
+# print(text)
+file.close()
